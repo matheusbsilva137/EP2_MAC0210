@@ -1,0 +1,15 @@
+clear variables;
+imgFileName = input('Informe o nome da imagem: ', 's');
+originalImg = imread(imgFileName);
+compressedImg = compress(originalImg, 2);
+decompressedImg = decompress(compressedImg, 2, 2, 4);
+
+imgM = zeros(1498, 1498);
+for x = 1 : 1498
+   for y = 1 : 1498
+       imgM(x,y) = 2*tan(x) + (tan(x)+tan(y))/2;
+   end
+end
+
+imwrite(imgM, 'plot.png', 'png');
+disp(calculateError(originalImg, decompressedImg));
