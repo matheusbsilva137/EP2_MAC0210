@@ -1,7 +1,7 @@
-Erro (bicúbica): 0.314454
-Erro (bilinear): 0.002293
-Função: imgM(x,y, a) = x*x*(sin(1/(x+10)));
-	imgM(x,y, a) = y*y*(sin(1/(y+10)));
+Erro (bicúbica): 0.143140
+Erro (bilinear): 0.054523
+Função: imgM(x,y, a) = x*x*(sin(1/(x-20)));
+	imgM(x,y, a) = y*y*(sin(1/(y-20)));
 	imgM(x,y, a) = 2;
 
-k = 15 e h = 17
+k = 8 e h = 10
