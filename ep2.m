@@ -6,10 +6,10 @@ originalImg = imread(imgFileName);
 compressedImg = compress(originalImg, k);
 decompressedImg = decompress(compressedImg, method, k, k+2);
 
-% imgM = zeros(1498, 1498);
+% imgM = zeros(442, 442);
 % for a = 1 : 3
-%     for x = 1 : 1498
-%        for y = 1 : 1498
+%     for x = 1 : 442
+%        for y = 1 : 442
 %            if a == 1
 %                imgM(x,y, a) = sin(x);
 %            elseif a == 2

@@ -1,0 +1,3 @@
+Erro (Bicúbica): 0.287703
+Erro (Bilinear): 0.042658
+k = 8
