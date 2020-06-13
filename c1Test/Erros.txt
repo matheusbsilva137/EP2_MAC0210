@@ -1,7 +1,0 @@
-Erro (bicúbica): 0.122312
-Erro (bilinear): 0.003133
-Função: imgM(x,y, a) = x*x^(1/3);
-	imgM(x,y, a) = y*y^(1/3);
-	imgM(x,y, a) = 2;
-
-k = 15 e h = 17

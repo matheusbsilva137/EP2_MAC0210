@@ -1,0 +1,7 @@
+Bilinear
+Uma descompressão usando k=7: Erro 0.028184
+Três descompressões usando k=1: Erro 0.031270
+
+Bicubica
+Uma descompressão usando k=7: Erro 0.347669
+Três descompressões usando k=1: Erro 0.102920

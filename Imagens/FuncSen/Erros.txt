@@ -1,0 +1,7 @@
+Erro (bicúbica): 0.471300
+Erro (bilinear): 0.624345
+Função: imgM(x,y, a) = sin(x);
+        imgM(x,y, a) = (sin(x)+sin(y))/2;
+        imgM(x,y, a) = sin(x);
+
+k = 2 e h = 4

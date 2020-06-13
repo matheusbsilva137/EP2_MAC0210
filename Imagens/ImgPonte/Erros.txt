@@ -1,0 +1,4 @@
+Erro (bicúbica): 0.061406
+Erro (bilinear): 0.011804
+
+k = 2 e h = 4
